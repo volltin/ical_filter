@@ -1,0 +1,12 @@
+# coding: utf-8
+
+
+class DefaultConfig:
+    # Upstream ics
+    #   eg. 'my_ics1': 'https://my_ics.com/1.ics'
+    upstreams = {
+        '366495db4650cfef': 'https://domain.com/calendar.ics',
+    }
+
+    # Token for direct access, disabled if the value is None
+    direct_token = None
